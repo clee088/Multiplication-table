@@ -1,6 +1,6 @@
 """
 multiplication-table.py
-Author: <your name here>
+Author: Christopher Lee
 Credit: <list sources used, if any>
 Assignment:
 
@@ -21,3 +21,17 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
 """
+w = int(input("What should the width of the table be?   "))
+h = int(input("What should the height of the table be? "))
+
+table = []
+
+for x in range(1, h+1):
+    table.join("x " * 10)
+
+
+"""def print_board(table):
+    for x in table:
+        print(" ").join(x)
+"""
+print(table)
