@@ -24,14 +24,9 @@ Height of multiplication table: 8
 w = int(input("What should the width of the table be?   "))
 h = int(input("What should the height of the table be? "))
 
-table = []
+table = ""
 
-for x in range(1, h+1):
-    table.join("x " * 10)
-
-
-"""def print_board(table):
-    for x in table:
-        print(" ").join(x)
-"""
+for i in range(1, h+1):
+    for x in range(1, w+1)):
+        table +=("{0:>3}".format(i * x))
 print(table)
