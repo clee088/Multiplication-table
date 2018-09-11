@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: Christopher Lee
-Credit: <list sources used, if any>
+Credit: Andrew Chen
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
